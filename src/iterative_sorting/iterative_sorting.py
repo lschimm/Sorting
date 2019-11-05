@@ -15,9 +15,11 @@ def selection_sort( arr ):
 
 
         # TO-DO: swap
-        temp_var = arr[smallest_index]
-        arr[smallest_index] = arr[cur_index]
-        arr[cur_index] = temp_var
+        arr[smallest_index], arr[cur_index] = arr[cur_index], arr[smallest_index]
+        # same thing as vv
+        # temp_var = arr[smallest_index]
+        # arr[smallest_index] = arr[cur_index]
+        # arr[cur_index] = temp_var
     # swap temporary variable to smallest index
     # swap smallest index to current index
     # swap current index to remporary variable
@@ -31,6 +33,14 @@ def selection_sort( arr ):
 # make sure there's 2 loops (one for external, check number of elements)
 # (internal, check sorts, I think)
 def bubble_sort( arr ):
+
+# psuedo code of what to do
+# go through array two at a time
+# compare first element to second element, second to third, etc for outside loop
+# internal: if 1st < 2nd number, keep
+# interla: if 1st > 2nd number, swap positions
+
+    swapped = False
 
     return arr
 
