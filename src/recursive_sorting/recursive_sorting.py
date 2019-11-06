@@ -4,16 +4,29 @@ def merge( arrA, arrB ):
     merged_arr = [0] * elements
     # TO-DO
 
-    merged_arr = [] # something to hold it maybe?
-    a = 0 # think left side
-    b = 0 # think right side
-    for i in range(0, elements):
-    return merged_arr
+
+    # try 1!
+    # merged_arr = [] # something to hold it maybe?
+    # a = 0 # think left side
+    # b = 0 # think right side
+    # while a < len(arrA) and b < len(arrB): # while a is < length of array A and b is < length or array B...
+    #     # in here do if statement that states...
+    #     # if the arrA[a] is less than arrB[b]:
+    #     # then change it
+
+
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
+
+    # try 1!
+    # continuously split until each element is singular
+    # compare each and place them in temporary arrays (a, b) (c, d) etc
+    # merge smaller arrays into larger ones into the correct order
+
 def merge_sort( arr ):
     # TO-DO
+
 
     return arr
 
