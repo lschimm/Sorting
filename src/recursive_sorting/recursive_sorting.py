@@ -14,13 +14,17 @@ def merge( arrA, arrB ):
     #     # if the arrA[a] is less than arrB[b]:
     #     # then change it
 
+    # try 2!
+    # use for i in range(elements):
+    # then use if len(arrA) == 0:
+    # then we need
 
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
 
     # try 1!
-    # continuously split until each element is singular
+    # continuously half each array until each element is singular
     # compare each and place them in temporary arrays (a, b) (c, d) etc
     # merge smaller arrays into larger ones into the correct order
 
