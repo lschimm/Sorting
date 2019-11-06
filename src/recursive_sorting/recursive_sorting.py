@@ -3,7 +3,11 @@ def merge( arrA, arrB ):
     elements = len( arrA ) + len( arrB )
     merged_arr = [0] * elements
     # TO-DO
-    
+
+    merged_arr = [] # something to hold it maybe?
+    a = 0 # think left side
+    b = 0 # think right side
+    for i in range(0, elements):
     return merged_arr
 
 
