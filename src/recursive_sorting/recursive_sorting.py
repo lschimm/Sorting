@@ -69,14 +69,6 @@ arr = [1, 4, 5, 2, 7, 3, 8, 6]
 def merge_sort( arr ):
     # TO-DO
 
-    if len(arr) <= 1:
-        return arr
-    else:
-        left = arr[0 : len(arr) // 2]
-        right = arr[len(arr) // 2:]
-        l = merge_sort(left)
-        r = merge_sort(right)
-        return merge(l, r)
 
 
     # return arr
