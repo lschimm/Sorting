@@ -12,8 +12,6 @@ def selection_sort( arr ):
                 smallest_index = j               # then smallest_index = j
 
 
-
-
         # TO-DO: swap
         arr[smallest_index], arr[cur_index] = arr[cur_index], arr[smallest_index]
         # same thing as vv

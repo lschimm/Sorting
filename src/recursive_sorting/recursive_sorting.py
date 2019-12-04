@@ -38,27 +38,23 @@ def merge( arrA, arrB ):
     for i in range(0, elements): # start at 0 and go through all elements
         if left >= len(arrA): # if LEFT sideis greaterthan or equalto RIGHT side
             merged_arr[i] = arrB[right] 
-            right += 1 # add the element to the right side
+            right += 1  # increment it 
         elif right >= len(arrB): # if right element is >= le
             merged_arr[i] = arrA[left]
-            left += 1
+            left += 1 # increment it 
         elif arrA[left] < arrB[right]:
             merged_arr[i] = arrA[left]
-            left += 1
+            left += 1 # increment it 
         else: 
             merged_arr[i] = arrB[right]
-            right += 1
+            right += 1 # increment it 
     return merged_arr # return the MERGED array
 
 
-arrA = [1, 4, 5, 2]
-arrB = [7, 3, 8, 6]
+# arrA = [1, 4, 5, 2]
+# arrB = [7, 3, 8, 6]
 
-
-
-# merge(arr1, arr2)
-
-arr = [1, 4, 5, 2, 7, 3, 8, 6]
+# arr = [1, 4, 5, 2, 7, 3, 8, 6]
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
@@ -71,7 +67,7 @@ def merge_sort( arr ):
 
 
 
-    # return arr
+    return arr
 
 
 # # STRETCH: implement an in-place merge sort algorithm
