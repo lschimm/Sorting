@@ -21,10 +21,12 @@ def merge( arrA, arrB ):
     return merged_arr # return the MERGED array
 
 
-# arrA = [1, 4, 5, 2]
-# arrB = [7, 3, 8, 6]
+arrA = [1, 4, 5, 2]
+arrB = [7, 3, 8, 6]
 
-# arr = [1, 4, 5, 2, 7, 3, 8, 6]
+arr = [1, 4, 5, 2, 7, 3, 8, 6]
+
+print(merge(arrA, arrB))
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
