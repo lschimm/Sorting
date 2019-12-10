@@ -19,7 +19,7 @@ def recursive_factorial(n): # O(n) linear!
 # print(recursive_factorial(2))  # 2
 # print(recursive_factorial(0)) # 1
 
-def iterative_factorial(n):
+def iterative_factorial(n): # O(n)
     result = 1 
     for i in range(1, n + 1):
         result *= i
